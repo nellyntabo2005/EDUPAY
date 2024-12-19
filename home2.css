@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #98C1D9;
+  padding: 20px;
+  border-bottom: 2px solid#ccc;
+
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('background-image.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  color: #2217bd;
+  padding: 150px 0;
+}
+.hero-content{
+text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.hero-content h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.design{
+  font-size: 24px;
+  color: #2217bd;
+  margin: 10%;
+}
+
+.social-media{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 30vh;
+}
+
+.social-media a{
+  color: #850d0d;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #808080;
+  text-align: center;
+  padding: 20px;
+}
+/* ... existing CSS ... */
+
+

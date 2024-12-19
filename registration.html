@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDUPAY - Register</title>
+  <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+  <div class="register-container">
+    <div class="register-box">
+      <h2>Create Your EDUPAY Account</h2>
+      <p>Please fill in the form to create your account.</p>
+      
+      <form class="register-form" id="registerForm" onsubmit="handleRegistration(event)">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name..." required>
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Create a password..." required>
+        
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password..." required>
+        
+        <button type="submit">REGISTER</button>
+      </form>
+      
+      <p class="login-text">
+        Already have an account? <a href="login.html">Login</a>
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

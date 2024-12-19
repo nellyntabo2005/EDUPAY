@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #d4edda;
+    padding: 60px 20px;
+    color: #155724;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero button:hover {
+    background-color: #218838;
+  }
+  
+  .info-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .info-section h2 {
+    color: #28a745;
+  }
+  
+  .info-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .info-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .info-section ul li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .contact-section {
+    background-color: #d4edda;
+    padding: 40px 20px;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-section form input,
+  .contact-section form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .contact-section form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  contact-section form button:hover {
+    background-color: #218838;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    padding:10px;
+  }
+  

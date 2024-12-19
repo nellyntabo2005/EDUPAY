@@ -1,0 +1,76 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: green;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 20px;
+  }
+  
+  .fee-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:green;
+  }
+  
+  /* Table Styling */
+  .fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .fee-table th,
+  .fee-table td {
+    padding: 10px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .fee-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .fee-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .paid {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .due {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width:100%
+  }
+  
